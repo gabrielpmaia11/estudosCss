@@ -1,2 +1,10 @@
-COmo funciona os seletores
+Como funciona os seletores
+
+seletores sao maneiras de seleciocnaar leementos 
+	.nome
+	#id 
+	tag div , p etc
+
+	quando seleciona pelo nome da tag seleciona todos os elementos 
+
 

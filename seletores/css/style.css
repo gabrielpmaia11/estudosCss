@@ -1,4 +1,30 @@
 /*Seletores*/
+ *{
+ 	/*Seleciona todos os elementos da pagina */
+ 	margin: 0;
+ }
 
-Maneiras de selecionar elementos
+p{
+	background-color: grey;
+}
+div{
+	background-color: yellow;
+}
 
+/*Usando os seletores com virgula para todos estes*/
+div,header{
+	background-color: #eee;
+}
+.p2,header{
+	text-align: center;
+}
+
+
+/**
+ * quando colocamos espasso ele vai pegar os elementos dentro do que estamos selecionando  tudo que for h2 e tiver dentor de .p2 vai ser selefcionado 
+ * 
+ * */
+
+.p2 h2{
+	font-size: 100px;
+}
