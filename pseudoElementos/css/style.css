@@ -1,0 +1,52 @@
+/*O dois pontos dois ppontos indica que quero usar um pseudo elemento*/
+
+/*Definir a primeira linha do paragrafo*/
+body{
+	font-family: 'sans-serif';
+}
+p::first-line{
+	color: red;
+}
+/*primeira letra*/
+h1::first-letter{
+	color: red;
+	font-size: 199px;
+}
+li{
+	list-style: none;
+ 
+	
+}
+
+/*Befonre colocar conteudo antes do elemento*/
+
+/*antes de cada item ele coloca a  letra a  */
+
+li::before{
+ 	content: "A";
+ 	display: inline-block;
+ 	width: 100px;
+ 	height: 100px;
+	background-image: url('../img/imagem.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+}
+
+/*After colocar conteudo depoiss do elemento*/
+li::after{
+ 	content: "A";
+ 	display: inline-block;
+ 	width: 100px;
+ 	height: 100px;
+	background-image: url('../img/imagem.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+}
+
+/*Selecao do texto muda */
+p::selection{
+	background-color: yellow;
+	color: orange;
+}
