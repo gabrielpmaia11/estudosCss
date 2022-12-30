@@ -28,3 +28,76 @@ div,header{
 .p2 h2{
 	font-size: 100px;
 }
+
+/*
+	seletor maior que > 
+	pega toods os elementos h2 cujo o pai for o .p2
+
+	tipo 
+	.head >p{
+	 seleciona os ps que  o pai for a classe , entao se tiver fora da classe nao pega  ,a  sem isso ele vai pegar mesmo que esteja dentro entaos se tiver 
+	 header 
+	 section
+	 p
+	 /section
+	 /header
+	 ai pega se nao tiver o > que 
+
+	}
+*/
+
+.p2 > h2{
+
+}
+header > p{
+	background-color: yellow;
+}
+
+section > p{
+background-color: orange;
+}
+
+/*Selecao + 
+
+pega o elemento p 
+que ta apos o header
+header
+	p 
+header
+	p -->pega esse apos  a header 
+
+	com isso qualquer p apos o header fica selecionado e  facilita o trablho e diferentes ares 
+*/
+
+header	+ p{
+	background-color: red;
+}
+
+
+
+/***
+ * Seleetor ~ 
+ * 
+ * pega todos os p que sucedam o header 
+ * 
+ * 
+ * */
+
+ header ~ p {
+ 	background-color: #00f;
+ 	color: red;
+ }
+
+
+ /**Atributo com seletor */
+/*Todo elemento com atributo width vai ser selecionado*/
+[width]{
+	background-color: orange;
+}
+
+/*Selecionando o width com pixel exato todos que tiver 100*/
+
+[width="500"]{
+	background-color: blue;
+}
+13 minutos
