@@ -14,7 +14,8 @@ h1::first-letter{
 }
 li{
 	list-style: none;
-	list-style-image: url();
+	margin-left: 1200px;
+	list-style-image: url(../img/imagem.jpg);
 }
 /*antes de cada item ele coloca a  letra a  */
 li::before{
