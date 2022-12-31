@@ -1,0 +1,18 @@
+unidades de medida
+
+se colocar no width no html por padrao é pixel 
+500
+=========
+css 
+px === pixel 
+
+
+cm centimetros
+mm milimetros
+in Polegadas (1in = 96px = 2.54cm)
+px *pixels (1px = 1/96t )
+centimetros e  milimetros
+
+polegadas 
+
+pixel e  
