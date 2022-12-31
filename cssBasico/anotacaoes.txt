@@ -19,3 +19,7 @@ pt Pontos (1pt =1/72 potnos of 1 in polecadas )
 pc picas 1pc = 12pt
 
 quando eu uso o background cover e  width ele ja ajusta altura atutomaticamente diferente da div 
+
+Unidades de medida relativas 
+
+12 minutos 
