@@ -1,4 +1,4 @@
-unidades de medida
+unidades de medidas fixas 
 
 se colocar no width no html por padrao é pixel 
 500
@@ -6,13 +6,16 @@ se colocar no width no html por padrao é pixel
 css 
 px === pixel 
 
-
+//tamanho do papel --> essas nao usa muito para impresora 
 cm centimetros
 mm milimetros
-in Polegadas (1in = 96px = 2.54cm)
-px *pixels (1px = 1/96t )
-centimetros e  milimetros
+in Polegadas (1 in = 96px = 2.54cm)
 
-polegadas 
+podemos usar essas unidades de medidas para fontes tambem
 
-pixel e  
+px * pixels (1px = 1/96th ( avos) de uma polegada  of 1 in)
+
+pt Pontos (1pt =1/72 potnos of 1 in polecadas )
+pc picas 1pc = 12pt
+
+quando eu uso o background cover e  width ele ja ajusta altura atutomaticamente diferente da div 
